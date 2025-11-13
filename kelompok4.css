@@ -1,0 +1,77 @@
+/* ===== kelompok4.css ===== */
+
+/* ASIDE SECTION */
+.aside {
+    background: #f7f8fa;
+    padding: 2rem;
+    margin: 3rem auto;
+    max-width: 800px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.aside-heading {
+    color: #0052d4;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.aside-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.aside-link {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.aside-link:hover {
+    color: #0052d4;
+}
+
+/* FOOTER */
+.footer {
+    background: #0052d4;
+    color: #fff;
+    padding: 2.5rem 1rem;
+    text-align: center;
+}
+
+.footer-heading {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.footer-address,
+.footer-social-links {
+    margin-bottom: 1.5rem;
+}
+
+.footer-link,
+.social-link {
+    color: #ffe082;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover,
+.social-link:hover {
+    color: #fff;
+}
+
+.footer-copy {
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    color: #eaeaea;
+}
+
+.footer-time {
+    color: #ffd54f;
+    font-weight: 500;
+}
