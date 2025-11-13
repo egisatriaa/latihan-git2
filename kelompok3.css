@@ -1,0 +1,75 @@
+/* ===== kelompok3.css ===== */
+
+/* CATEGORY SECTION */
+.section-categories {
+    background-color: #f0f4ff;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.categories-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.category-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.category-item {
+    background: white;
+    padding: 1.5rem;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.category-item:hover {
+    transform: translateY(-5px);
+}
+
+.category-title {
+    color: #0052d4;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.category-desc {
+    color: #555;
+    font-size: 0.9rem;
+}
+
+/* MEDIA SECTION */
+.section-media {
+    background-color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.media-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.media-item {
+    margin-bottom: 2rem;
+}
+
+.media-title {
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    color: #0052d4;
+}
+
+.media-video,
+.media-audio,
+.media-map {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}

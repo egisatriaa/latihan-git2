@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="min-height: 200vh">
+    <header>
+      <h1>Tech Solution</h1>
+      <nav>
+        <span><a href="#">Home</a></span> <span><a href="#">About</a></span>
+        <span><a href="#">Contact</a></span>
+        <span><a href="./index.html">Database</a></span>
+      </nav>
+    </header>
+    <main>
+      <section id="contact-us">
+        <h2>Contact Us</h2>
+        <p>
+          Get in touch with our <strong>expert team</strong> for all your
+          <em>technology needs</em>
+        </p>
+      </section>
+
+      <section id="our-contact-method">
+        <h3>Our Contact Methods</h3>
+        <ul>
+          <li>
+            Phone Support
+            <ol>
+              <li>Main Office: (123) 456-7890</li>
+              <li>Support Lines: (123) 456-7891</li>
+              <li>Emergency: (123) 456-7891</li>
+            </ol>
+          </li>
+          <li>Email Support</li>
+          <li>Live Chat</li>
+          <li>Office Visits</li>
+        </ul>
+
+        <h3>Business Hours</h3>
+        <ol>
+          <li>Main Office: (123) 456-7890</li>
+          <li>Support Lines: (123) 456-7891</li>
+          <li>Emergency: (123) 456-7891</li>
+        </ol>
+      </section>
+
+      <section>
+        <div class="branch-item">
+          <h4>Headquarters</h4>
+          <p>123 Main St, Anytown, USA</p>
+          <table>
+            <tr>
+              <td>Phone</td>
+              <td>: <a href="#">(123) 456-7890</a></td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>
+                :
+                <a href="mailto:info@techsolution.com">info@techsolution.com</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="branch-item">
+          <h4>Headquarters</h4>
+          <p>123 Main St, Anytown, USA</p>
+          <table>
+            <tr>
+              <td>Phone</td>
+              <td>: <a href="#">(123) 456-7890</a></td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>
+                :
+                <a href="mailto:info@techsolution.com">info@techsolution.com</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="branch-item">
+          <h4>Headquarters</h4>
+          <p>123 Main St, Anytown, USA</p>
+          <table>
+            <tr>
+              <td>Phone</td>
+              <td>: <a href="#">(123) 456-7890</a></td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>
+                :
+                <a href="mailto:info@techsolution.com">info@techsolution.com</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <section id="send-message">
+        <form>
+          <fieldset>
+            <legend>Personal Information</legend>
+
+            <span>
+              <label for="firstName">First Name:</label>
+              <input type="text" placeholder="Enter your first name" />
+            </span>
+
+            <span>
+              <label for="lastName">Last Name:</label>
+              <input type="text" placeholder="Enter your last name" />
+            </span>
+
+            <span>
+              <label for="email">Email:</label>
+              <input type="email" placeholder="Enter your email" />
+            </span>
+
+            <span>
+              <label for="phone">Phone:</label>
+              <input type="text" placeholder="Enter your phone number" />
+            </span>
+
+            <span>
+              <label for="company">Company Name:</label>
+              <input type="text" placeholder="Enter your company name" />
+            </span>
+          </fieldset>
+        </form>
+      </section>
+
+      <section id="inquiry-details">
+        <form>
+          <fieldset>
+            <legend>Inquiry Details</legend>
+
+            <div>
+              <span>
+                <label for="type">Type of Inquiry:</label>
+                <select id="type" name="type">
+                  <option value="general">General Inquiry</option>
+                  <option value="support">Technical Support</option>
+                  <option value="sales">Sales Inquiry</option>
+                </select>
+              </span>
+
+              <span>
+                <label for="priority">Priority Level:</label>
+                <select id="priority" name="priority" multiple>
+                  <option value="low">Low</option>
+                  <option value="medium">Medium</option>
+                  <option value="high">High</option>
+                </select>
+              </span>
+
+              <span>
+                <label for="contact-method">Preferred Contact Method:</label>
+
+                <!-- Email -->
+                <input type="radio" name="contact-method" value="email" />
+                <label for="email">Email</label>
+
+                <!-- Phone -->
+                <input type="radio" name="contact-method" value="phone" />
+                <label for="phone">Phone</label>
+              </span>
+
+              <span>
+                <label for="service">Service Interested In:</label>
+                <input type="checkbox" name="service" value="web" />
+                <label for="web">Web Development</label>
+
+                <input type="checkbox" name="service" value="web" />
+                <label for="web">Web Development</label>
+
+                <input type="checkbox" name="service" value="web" />
+                <label for="web">Web Development</label>
+              </span>
+            </div>
+
+            <div>
+              <span>
+                <label for="budget">Project Budget Range </label>
+                <input type="range" name="budget" min="0" max="50000" />
+                <label for="max-budget">$50,000</label>
+              </span>
+
+              <span>
+                <label for="message">Your Message</label>
+                <textarea name="message" cols="50" rows="10"></textarea>
+              </span>
+
+              <span>
+                <label for="files">Attach Files</label>
+                <input type="file" accept=".pdf,.doc,.docx,.jpg,.png" />
+              </span>
+
+              <span>
+                <label for="files">Brand Colors</label>
+                <input type="color" />
+              </span>
+            </div>
+
+            <div><button type="submit">Submit</button></div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Tech Solution. All rights reserved.</p>
+      <p>Follow us at <a href="#">Twitter</a> | <a href="#">Facebook</a></p>
+    </footer>
+  </body>
+</html>
